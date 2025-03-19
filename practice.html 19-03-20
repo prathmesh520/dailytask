@@ -1,176 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
+<h2> *Here is my resume* </h2> 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Profile Page</title>
-<style>
 
-        body {
-
-            font-family: Arial, sans-serif;
-
-            background-color: #f4f4f4;
-
-            margin: 0;
-
-            padding: 20px;
-
-        }
-
-        .container {
-
-            max-width: 600px;
-
-            margin: auto;
-
-            background: white;
-
-            padding: 20px;
-
-            border-radius: 10px;
-
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-
-        }
-
-        img {
-
-            width: 100px;
-
-            border-radius: 50%;
-
-        }
-
-        .btn {
-
-            background-color: blue;
-
-            color: white;
-
-            padding: 10px 15px;
-
-            border: none;
-
-            cursor: pointer;
-
-        }
-
-        table {
-
-            width: 100%;
-
-            border-collapse: collapse;
-
-        }
-
-        th, td {
-
-            border: 1px solid black;
-
-            padding: 8px;
-
-            text-align: center;
-
-        }
-</style>
 </head>
 <body>
  
     <div class="container">
-<!-- 1. Heading Tag -->
-<h1>My Profile</h1>
  
-        <!-- 2. Image Tag -->
-<img src="profile.jpg" alt="Profile Picture">
  
-        <!-- 3. Paragraph Tag -->
-<p>Hello! My name is <strong>John Doe</strong>. I am a web developer passionate about creating amazing websites.</p>
+<p>Hello! My name is <strong>Ram</strong>. I am a web developer passionate about creating amazing websites.</p>
  
-        <!-- 4. Unordered List -->
 <h2>My Skills</h2>
 <ul>
 <li>HTML & CSS</li>
 <li>JavaScript</li>
+<li>python</li>
 <li>React.js</li>
 </ul>
  
-        <!-- 5. Ordered List -->
 <h2>Work Experience</h2>
 <ol>
 <li>Frontend Developer at ABC Corp</li>
 <li>Web Designer at XYZ Ltd</li>
 </ol>
  
-        <!-- 6. Anchor Tag -->
 <p>Visit my <a href="https://github.com" target="_blank">GitHub</a> for more projects.</p>
- 
-        <!-- 7. Table -->
+
+
+
 <h2>Education</h2>
 <table>
-<tr>
 <th>Degree</th>
+<td><strong>|</strong></td>
 <th>Institution</th>
+
+
+
+
 </tr>
 <tr>
 <td>Bachelor's in CS</td>
-<td>XYZ University</td>
+<td><strong>|</strong></td>
+<td>XYZ University</td></tr>
 </tr>
 </table>
  
-        <!-- 8. Form -->
 <h2>Contact Me</h2>
 <form>
-<!-- 9. Label -->
 <label for="name">Name:</label>
-<!-- 10. Input -->
 <input type="text" id="name" name="name" required><br><br>
  
             <label for="email">Email:</label>
 <input type="email" id="email" name="email" required><br><br>
  
-            <!-- 11. Radio Button -->
 <label>Gender:</label>
 <input type="radio" name="gender" value="Male"> Male
 <input type="radio" name="gender" value="Female"> Female<br><br>
  
-            <!-- 12. Checkbox -->
-<label>Subscribe:</label>
-<input type="checkbox" name="subscribe"> Yes, send me updates!<br><br>
- 
-            <!-- 13. Select Dropdown -->
-<label for="country">Country:</label>
-<select id="country" name="country">
-<option>India</option>
-<option>USA</option>
-<option>UK</option>
-</select><br><br>
- 
-            <!-- 14. Textarea -->
-<label for="message">Message:</label><br>
-<textarea id="message" rows="3" cols="40"></textarea><br><br>
- 
-            <!-- 15. Button -->
+  
 <button type="submit" class="btn">Submit</button>
 </form>
  
-        <!-- 16. HR Tag -->
-<hr>
- 
-        <!-- 17. Blockquote -->
-<blockquote>"The best way to predict the future is to create it." - Peter Drucker</blockquote>
- 
-        <!-- 18. Abbreviation -->
-<p>My favorite coding language is <abbr title="Hypertext Markup Language">HTML</abbr>.</p>
- 
-        <!-- 19. Code Tag -->
-<p>Here is a sample code snippet:</p>
-<code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
- 
-        <!-- 20. Footer -->
-<footer>
-<p>&copy; 2025 John Doe. All Rights Reserved.</p>
-</footer>
+
 </div>
  
 </body>
